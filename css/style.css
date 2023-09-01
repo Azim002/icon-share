@@ -1,0 +1,259 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+ 
+.green{
+	margin: 40px auto;
+	width: 500px;
+	height: 300px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 160px;
+	height: 160px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 22%;
+	left: 36%;
+	z-index: 1;
+}
+ 
+ .blue{
+ 	width: 160px;
+ 	height: 160px;
+ 	background: blue;
+ 	border-radius: 100%;
+ 	position: absolute;
+ 	top: 22%;
+ 	left: 36%;
+ 	z-index: -100;
+  }
+  .fb-share{
+  	width: 150px;
+  	position: fixed;
+  	top: 50%;
+  	right: -100px;
+  	transition: 1s;
+
+  }
+  .fb-share:hover{
+  	right: 2px;
+  	cursor: pointer;
+ }
+ .twitter{
+ 	width: 185px;
+ 	position: fixed;
+ 	top: 60%;
+ 	right: -133px;
+ 	transition: 1s;
+ }
+ .twitter:hover{
+ 	right: 2px;
+ 	cursor: pointer;
+ }
+ .pinterest{
+ 	width: 170px;
+ 	position: fixed;
+ 	top: 70%;
+ 	right: -119px;
+ 	transition: 1s;
+ }
+ .pinterest:hover{
+ 	right: 2px;
+ 	cursor: pointer;
+ }
+
+ .linkd{
+ 	width: 175px;
+ 	position: fixed;
+ 	top: 78%;
+ 	right: -125px;
+ 	transition: 1s;
+ }
+ .linkd:hover{
+ 	right: 2px;
+ 	cursor: pointer;
+ }
+ .whatsapp{
+ 	width: 168px;
+ 	position: fixed;
+ 	top: 87%;
+ 	right: -118px;
+ 	transition: 1s;
+ }
+ 
+ .whatsapp:hover{
+ 	right: 2px;
+ 	cursor: pointer;
+ }
+
+  .reddit{
+ 	width: 168px;
+ 	position: fixed;
+ 	top: 39%;
+ 	right: -116px;
+ 	transition: 1s;
+ }
+  .reddit:hover{
+ 	right: 2px;
+ 	cursor: pointer;
+ }
+
+ .social-icons{
+ 	margin: 100px auto;
+ 	width: 100%;
+ 	padding:90px 0px;
+ 	text-align: center;
+ }
+
+ .social-icons li{
+ 	list-style-type: none;
+ 	display: inline-block;
+ }
+ .social-icons li a{
+ 	display: block;
+ 	text-align: center;
+ 	font-size: 32px;
+ 	margin: 0px 10px;
+ 	transition: 1s;
+ 
+ }
+ .social-icons li a .fa-facebook{
+ 	width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	border-radius: 100%;
+ 	background: #0F90F3;
+ 	color: #fff;
+ 	border: 2px solid #0F90F3;
+ 	transition: 1s;
+ }
+ .social-icons li a .fa-facebook:hover{
+ 	background: transparent;
+ 	color:#0F90F3;
+ 	border: 2px solid #0F90F3;
+ }
+.social-icons li a .fa-youtube{
+ 	width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	border-radius: 100%;
+ 	background: #FF0000;
+ 	color: #fff;
+ 	border: 2px solid #FF0000;
+ 	transition: 1s;
+ 
+}
+
+.social-icons li a .fa-youtube:hover{
+	background: transparent;
+	color: #FF0000;
+ 	border: 2px solid #FF0000;
+
+}
+
+.social-icons li a .fa-instagram{
+ 	width: 80px;
+ 	height: 80px;
+ 	line-height: 90px;
+ 	border-radius: 100%;
+ 	background: #F403C8;
+ 	color: #fff;
+ 	border: 2px solid #F403C8;
+ 	transition: 1s;
+}
+
+
+.social-icons li a .fa-instagram:hover{
+	background: transparent;
+ 	color: #F403C8;
+ 	border: 2px solid #F403C8;
+ }
+
+ .social-icons li a .fa-twitter{
+ 	width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	border-radius: 100%;
+ 	background: #09B7E9;
+ 	color: #fff;
+ 	border: 2px solid #09B7E9;
+ 	transition: 1s;
+}
+
+
+.social-icons li a .fa-twitter:hover{
+	background: transparent;
+ 	color: #09B7E9;
+ 	border: 2px solid #09B7E9;
+ }
+
+ .social-icons li a .fa-pinterest{
+ 	width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	border-radius: 100%;
+ 	background: #E63A4F;
+ 	color: #fff;
+ 	border: 2px solid #E63A4F;
+ 	transition: 1s;
+}
+
+
+.social-icons li a .fa-pinterest:hover{
+	background: transparent;
+ 	color: #E63A4F;
+ 	border: 2px solid #E63A4F;
+ }
+
+ .social-icons li a .fa-linkedin{
+ 	width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	border-radius: 100%;
+ 	background: #0A63BC;
+ 	color: #fff;
+ 	border: 2px solid #0A63BC;
+ 	transition: 1s;
+}
+
+.social-icons li a .fa-linkedin:hover{
+	background: transparent;
+ 	color: #0A63BC;
+ 	border: 2px solid #0A63BC;
+ }
+
+ .social-icons li a .fa-reddit{
+ 	width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	border-radius: 100%;
+ 	background: #F74300;
+ 	color: #fff;
+ 	border: 2px solid #F74300;
+ 	transition: 1s;
+}
+
+.social-icons li a .fa-reddit:hover{
+	background: transparent;
+ 	color: #0A63BC;
+ 	border: 2px solid #F74300;
+ }
